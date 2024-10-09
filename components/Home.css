@@ -1,0 +1,61 @@
+/* Styling for the Home page */
+.home-page {
+    height: 100vh;
+    background-image: url('https://img.freepik.com/free-vector/realistic-travel-background-with-elements_52683-77784.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* To make sure the navbar stays fixed */
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin-right: 20px;
+}
+
+.navbar-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar-link:hover {
+    text-decoration: underline;
+}
+
+/* Content styling */
+.home-content {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 48px;
+    color: black; /* Change to white to contrast with background */
+}
+
+.home-content p {
+    font-size: 24px;
+    color: black; /* Adjust color to contrast against background image */
+}

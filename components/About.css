@@ -1,0 +1,114 @@
+/* Navbar styling */
+.about-navbar {
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-start; /* Align Home link to the left */
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+
+
+/* General styling for About page */
+.about-page {
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.about-title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Styling for tourism places section */
+.tourism-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.tourism-place {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.tourism-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.tourism-name {
+    font-size: 24px;
+    color: #007BFF;
+}
+
+.tourism-description {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Styling for resort bookings section */
+.booking-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.resort-booking {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.resort-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.resort-name {
+    font-size: 24px;
+    color: #28a745;
+}
+
+.resort-description {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .tourism-section, .booking-section {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,104 @@
+/* Navbar for SignIn page */
+.signin-navbar {
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute; /* Ensures it stays at the top */
+    top: 0;
+    left: 0;
+}
+
+/* Home Link */
+.home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* Rest of your existing SignIn page styles */
+
+/* SignIn Page Background */
+.signin-page {
+    background-image: url('https://www.shutterstock.com/image-photo/palm-tree-on-tropical-beach-260nw-2154569741.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SignIn Container */
+.signin-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title */
+.signin-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Form Fields */
+.signin-form .input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button */
+.signin-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.signin-btn:hover {
+    background-color: #218838;
+}
+
+/* Link to SignUp Page */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .signin-container {
+        width: 90%;
+    }
+}

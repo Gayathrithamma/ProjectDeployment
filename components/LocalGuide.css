@@ -1,0 +1,107 @@
+/* Local Guide page background */
+.local-guide-page {
+    background-image: url('https://img.freepik.com/free-vector/female-guide-with-group-tourists-flat-vector-illustration-happy-girls-guys-having-excursion-with-tour-guide-holding-flag-men-women-taking-photo-looking-sightseeing-tourism-trip-concept_74855-24526.jpg'); /* Replace with your image URL */
+    background-size: contain;  /* Ensures the image covers the entire page */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed while scrolling */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.local-guide-navbar {
+    background-color: rgba(51, 51, 51, 0.8); /* Optional: make navbar slightly transparent */
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Home link will be aligned to the left */
+}
+
+.home-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}
+
+/* General page layout */
+.heading {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Guide list and cards */
+.guide-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.guide-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+}
+
+.guide-card h3 {
+    margin-bottom: 10px;
+}
+
+.book-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.book-btn:hover {
+    background-color: #218838;
+}
+
+/* Booking and rating forms */
+.guide-details {
+    margin-top: 20px;
+}
+
+.booking-form,
+.rating-form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 30%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
